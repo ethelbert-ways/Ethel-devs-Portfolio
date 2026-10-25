@@ -1,0 +1,8 @@
+QUICK PREVIEW (no tools needed)
+1. Extract this folder, then open index.html in Chrome.
+2. To change text, open content.js in VS Code, edit, save, refresh the page.
+3. Put your photo in the images folder and write 'images/portrait.png' in content.js (site.portrait).
+
+This is a ready-made copy for looking at and editing content. It is NOT the project you deploy.
+To put the site online use ethel-devs-react.zip and follow "Chromebook / no terminal" in its README.md.
+Fonts need an internet connection.

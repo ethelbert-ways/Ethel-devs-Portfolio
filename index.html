@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Ethel-devs | Web Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Ethel-devs is a web developer building responsive interfaces and reliable web applications with HTML, CSS, JavaScript and React, while growing into backend development."
+    />
+    <meta name="theme-color" content="#030817" />
+    <meta property="og:title" content="Ethel-devs | Web Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Fast, scalable and beautiful web experiences. Skills, projects and a way to get in touch."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
+    />
+    <style>
+      html, body { margin: 0; background: #030817; }
+    </style>
+    <noscript>
+      <style>
+        .reveal { opacity: 1 !important; transform: none !important; }
+        .enter { animation: none !important; opacity: 1 !important; }
+      </style>
+    </noscript>
+  <link rel="stylesheet" href="assets/main.css" /></head>
+  <body>
+    <!-- This message is replaced by the real page as soon as React starts.
+         If you can read it, you opened this file directly instead of running the project. -->
+    <div id="root">
+      <div style="max-width:36rem;margin:0 auto;padding:3rem 1.25rem;font-family:system-ui,sans-serif;line-height:1.6;color:#a9b8d0">
+        <h1 style="margin:0 0 1rem;font-size:1.5rem;color:#f4f7ff">This file cannot be opened by double-clicking it</h1>
+        <p>
+          This is a React + Vite project, so the browser cannot run <code>index.html</code> on its own. The project has to be
+          started (<code>npm run dev</code>) or deployed first.
+        </p>
+        <p>The easiest way, with no installs, is described in <strong>README.md</strong> under &ldquo;Chromebook / no terminal&rdquo;.</p>
+      </div>
+    </div>
+    <noscript>This portfolio needs JavaScript to be turned on.</noscript>
+    <script>
+      /* If content.js has a typo (for example a missing comma), say so instead of showing a blank page. */
+      window.addEventListener('error', function (e) {
+        if (e.filename && /content\.js/.test(e.filename)) window.__contentError = e.message + ' (line ' + e.lineno + ')'
+      })
+    </script>
+    <script src="content.js"></script>
+    <script>
+      if (!window.PORTFOLIO) {
+        var box = document.getElementById('root')
+        box.textContent = ''
+        var wrap = document.createElement('div')
+        wrap.style.cssText = 'max-width:36rem;margin:0 auto;padding:3rem 1.25rem;font-family:system-ui,sans-serif;line-height:1.6;color:#a9b8d0'
+        var h = document.createElement('h1')
+        h.style.cssText = 'margin:0 0 1rem;font-size:1.5rem;color:#f4f7ff'
+        h.textContent = 'content.js has a mistake'
+        var p = document.createElement('p')
+        p.textContent =
+          'The page could not read content.js. The usual cause is a missing comma, quote or bracket near the last thing you edited. ' +
+          'Fix it (or paste the original file back) and refresh the page.'
+        wrap.appendChild(h)
+        wrap.appendChild(p)
+        if (window.__contentError) {
+          var d = document.createElement('p')
+          d.style.cssText = 'font-family:ui-monospace,monospace;font-size:.9rem;color:#fbbf24'
+          d.textContent = 'Browser says: ' + window.__contentError
+          wrap.appendChild(d)
+        }
+        box.appendChild(wrap)
+      }
+    </script>
+    <script defer src="assets/main.js"></script>
+  </body>
+</html>
