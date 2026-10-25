@@ -28,7 +28,7 @@ window.PORTFOLIO = {
        Put your picture in the "images" folder, then write its path here,
        for example: 'images/portrait.png'. Leave '' to show the illustration.
        A transparent PNG of your head and shoulders looks best.              */
-    portrait: 'images/potrait.png',
+    portrait: 'potrait.png',
 
     /* ---- Contact form (optional) ------------------------------------------
        Paste the address of a form service (for example a Formspree form URL)
@@ -77,7 +77,7 @@ window.PORTFOLIO = {
         { icon: 'access', label: 'Accessible interfaces' },
         { icon: 'learn', label: 'Always learning' },
       ],
-      quote: 'Write clean code, build for everyone, and never stop learning.', // PLACEHOLDER: write your own
+      quote: 'I don’t just write code—I remove friction so your users fall in love with your brand from their very first click.', // PLACEHOLDER: write your own
     },
 
     /* ---- Contact ---------------------------------------------------------- */
