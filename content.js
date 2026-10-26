@@ -147,5 +147,14 @@ window.PORTFOLIO = {
 
      Only "title" is required. Separate projects with a comma.
      ====================================================================== */
-  projects: [],
+  projects: [
+     {
+  title: 'CMS Invictus: Set Profile Log',
+  description: 'A password-protected, responsive website for the C.M.S. Grammar School 2K26 set, with a nickname homepage, student profile cards and an awards page.',
+  tags: ['HTML', 'CSS', 'JavaScript'],
+  image: 'cms-invictus.jpg',
+ liveUrl: 'https://cms2k26-info.vercel.app',
+repoUrl: 'https://github.com/ethelbert-ways/CMS-set-project.git'
+},
+  ],
 }
