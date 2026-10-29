@@ -156,5 +156,13 @@ image: 'cms-invictus.jpg',
 liveUrl: 'https://cms2k26-info.vercel.app',
 repoUrl: 'https://github.com/ethelbert-ways/CMS-set-project.git'
 },
+     {
+title: 'Beedy Worth Collections: An African fashion catalog website',
+description: 'A responsive catalog website for an African women’s fashion brand. Visitors browse 100 of styles across four collections and place orders through WhatsApp.',
+tags: ['HTML', 'CSS', 'JavaScript'],
+image: 'beedy-worth-cover.png',
+liveUrl: 'https://beedy-fashion.vercel.app',
+repoUrl: 'https://github.com/ethelbert-ways/Beedy-worth-collections-.git'
+     },
   ],
 }
