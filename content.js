@@ -164,5 +164,13 @@ image: 'beedy-worth-cover.png',
 liveUrl: 'https://beedy-fashion.vercel.app',
 repoUrl: 'https://github.com/ethelbert-ways/Beedy-worth-collections-.git'
      },
+     {
+title: 'CLI- Cognitive Learning Interface',
+description: 'Learn science, calculate, plot graphs and look things up in one calm place. Every lesson, word and formula is built right into this site: no accounts, no AI, nothing to install.',
+tags: ['HTML', 'CSS', 'JavaScript'],
+image: 'CLI.PNG',
+liveUrl: 'https://cliedu.vercel.app/',
+repoUrl: 'https://github.com/ethelbert-ways/CLI-system.git'
+},
   ],
 }
